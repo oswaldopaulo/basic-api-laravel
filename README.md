@@ -1,6 +1,6 @@
 ## Laravel Basic API
 ### Routes
-- GET /api/users
+- GET /api/users 
 - GET /api/user/{id}
 - POST /api/user
 
@@ -18,7 +18,7 @@ set token em app/Http/Controllers/ApiController.php
 
     
     static function  getToken()
-        {
+    {
         return "TOKENTESTE";
     }
 
